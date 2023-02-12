@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Footer from '../Footer/footer'
 import Navbar from '../Navbar/navbar'
 import './search.css'
 import logo from '../../assets/MataJi.png'

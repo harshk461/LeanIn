@@ -7,7 +7,63 @@
     padding-top: 50px;
 }
 
+.home-header .right,
+.home-header .left {
+    width: 50%;
+    display: flex;
+}
+
+.home-header .left {
+    justify-content: end;
+}
+
+.home-header .right {
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 40px;
+    align-self: self-start;
+}
+
+.home-header .right .header {
+    width: 70%;
+    font-size: 75px;
+    line-height: 91px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+.home-header .right .sub-header {
+    width: 520px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.home-header .right .buttons button:first-child,
+.home-header .right .buttons button:nth-child(2) {
+    width: 190px;
+    height: 46px;
+    background: #E8522A;
+    border-radius: 20px 3px;
+    border: none;
+    margin-right: 40px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.home-header .right .buttons button:nth-child(2) {
+    border: 2px solid #E8522A;
+    background-color: transparent;
+}
+
 .home-header .left img {
-    width: 600px;
-    height: 600px;
+    width: 90%;
+    height: 90%;
 }

@@ -46,7 +46,8 @@
 }
 
 .home-header .right .buttons button:first-child,
-.home-header .right .buttons button:nth-child(2) {
+.home-header .right .buttons button:nth-child(2),
+.top .right button {
     width: 190px;
     height: 46px;
     background: #E8522A;
@@ -152,6 +153,7 @@
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-bottom: 50px;
 }
 
 .blogBox {
@@ -159,9 +161,105 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: self-start;
 }
 
 .blogBox img {
     width: 100%;
     height: 100%;
+}
+
+.blogBox h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.blogBox p {
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 300;
+}
+
+.blogBox button {
+    width: 190px;
+    height: 46px;
+    background: #E8522A;
+    border-radius: 20px 3px;
+    border: none;
+    margin-right: 40px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px;
+    background-color: #296159;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .top {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin: 40px auto;
+    align-items: center;
+}
+
+.top .left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #EEE1D1;
+}
+
+.top .left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    width: 550px;
+    color: #fff;
+}
+
+.top .left h1 {
+    font-size: 40px;
+}
+
+.divider {
+    width: 90%;
+    margin: auto;
+    border: 1px solid #000;
+    margin-bottom: 30px;
+}
+
+.bottom {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .logo img {
+    width: 200px;
+    height: 60px;
+}
+
+.contacts {
+    display: flex;
+    gap: 30px;
+}
+
+.contact {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    align-items: center;
 }

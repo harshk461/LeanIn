@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../components/Footer/footer'
 import Navbar from '../../components/Navbar/navbar'
 import './home.css'
 import dal from '../../assets/dal.png'
@@ -8,6 +7,8 @@ import pic2 from '../../assets/pic2.png'
 import blog1 from '../../assets/blog1.png'
 import blog2 from '../../assets/blog2.png'
 import blog3 from '../../assets/blog3.png'
+import logo from '../../assets/MataJi.png'
+import { FaMailBulk, FaPhone, FaLocationArrow } from 'react-icons/fa'
 export default function Home() {
     return (
         <div className='body'>
@@ -71,12 +72,67 @@ export default function Home() {
                         <div className="blogBox">
                             <img src={blog1} alt="blog" />
                             <div className="blog-info">
-                                
+                                <h3>10 Pulses you should be eating
+                                    throughout the year</h3>
+                                <p>But how well do you know the pulses you consume?
+                                    Read up on our list of some of the top pulses
+                                    consumed across the world.</p>
+                                <button>Read Now</button>
                             </div>
                         </div>
                         <div className="blogBox">
+                            <img src={blog2} alt="blog" />
+                            <div className="blog-info">
+                                <h3>Health Benefits Of Power-
+                                    Packed Pulses</h3>
+                                <p>Pulses are a constant ingredient with other spices.
+                                    Desserts, curries and other varieties of dishes can make
+                                    with different pulses like lentils and peas.</p>
+                                <button>Read Now</button>
+                            </div>
                         </div>
                         <div className="blogBox">
+                            <img src={blog3} alt="blog" />
+                            <div className="blog-info">
+                                <h3>Introducing Six lesser-known Pulses
+                                    and their cooking traditions</h3>
+                                <p>Red, green, white, black, brown… name a colour and we
+                                    can give you a pulse! And what exactly is a pulse,
+                                    you might ask?</p>
+                                <button>Read Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="footer">
+                <div className="top">
+                    <div className="left">
+                        <h2>Discover the wonderful
+                            world of pulses.</h2>
+                        <h1>Happy cooking!</h1>
+                    </div>
+                    <div className="right">
+                        <button>Try Now!</button>
+                    </div>
+                </div>
+                <div className="divider"></div>
+                <div className="bottom">
+                    <div className="logo">
+                        <img src={logo} alt="Mataji" />
+                    </div>
+                    <div className="contacts">
+                        <div className="contact">
+                            <FaMailBulk />
+                            <a href="/">hk2152573@gmail.com</a>
+                        </div>
+                        <div className="contact">
+                            <FaPhone />
+                            <a href="/">+91 123456789</a>
+                        </div>
+                        <div className="contact">
+                            <FaLocationArrow />
+                            <a href="/">Delhi,IN</a>
                         </div>
                     </div>
                 </div>

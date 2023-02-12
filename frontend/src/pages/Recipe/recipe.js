@@ -2,6 +2,8 @@ import React from 'react'
 import Footer from '../../components/Footer/footer'
 import Navbar from '../../components/Navbar/navbar'
 import './recipe.css'
+import logo from '../../assets/MataJi.png'
+import { FaMailBulk, FaPhone, FaLocationArrow } from 'react-icons/fa'
 
 export default function Recipe() {
     return (
@@ -98,7 +100,38 @@ export default function Recipe() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <div className="footer recipe_footer">
+                <div className="top">
+                    <div className="left">
+                        <h2>Discover the wonderful
+                            world of pulses.</h2>
+                        <h1>Happy cooking!</h1>
+                    </div>
+                    <div className="right">
+                        <a href="/search"><button>Try Now!</button></a>
+                    </div>
+                </div>
+                <div className="divider"></div>
+                <div className="bottom">
+                    <div className="logo">
+                        <img src={logo} alt="Mataji" />
+                    </div>
+                    <div className="contacts">
+                        <div className="contact">
+                            <FaMailBulk />
+                            <a href="/">hk2152573@gmail.com</a>
+                        </div>
+                        <div className="contact">
+                            <FaPhone />
+                            <a href="/">+91 123456789</a>
+                        </div>
+                        <div className="contact">
+                            <FaLocationArrow />
+                            <a href="/">Delhi,IN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

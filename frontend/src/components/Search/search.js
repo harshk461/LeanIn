@@ -16,7 +16,7 @@ export default function Search() {
         console.log(e.target.files[0]);
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         const formData = new FormData();
         formData.append(
             "file",
@@ -32,7 +32,7 @@ export default function Search() {
             body: formData,
         }
         setimgURL(URL.createObjectURL(selectedFile));
-        fetch('http://127.0.0.1:5000/upload', requestOption)
+        await fetch('https://mataji.onrender.com/upload', requestOption)
             .then(res => res.json())
             .then(data => {
                 setEnglish(data['sucess'][0]);
@@ -42,7 +42,6 @@ export default function Search() {
                 setLink2(data["links"][1]);
             })
         const res_window = document.getElementById('result');
-        const loading = document.getElementById('loading');
         res_window.classList.remove('hidden');
     }
     return (

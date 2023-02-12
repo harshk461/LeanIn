@@ -10,76 +10,43 @@ export default function Recipe() {
             <h1 className='header'>Try Out New Recipes!</h1>
             <div className="recipe-window">
                 <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/04/pav-bhaji-1-280x280.jpg" className='box' alt="" />
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/Whisk_PI_180919_Burritos_Port_023.jpg" className='box' alt="" />
                     <div className="top box">
                         <div className="title">
-                            Pav Bhaji Recipe (Super Delicious Mumbai Pav Bhaji)
+                            Beef and Rice Burritos
                         </div>
                         <div className="time">
-                            Expected Time:40min
+                            Expected Time:30min
                         </div>
                     </div>
                 </div>
                 <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2011/10/grilled-paneer-tikka-280x280.jpg" className='box' alt="" />
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/NEW_Korma_lamb%20shoulder_recipe.jpg" className='box' alt="" />
                     <div className="top box">
                         <div className="title">
-                            Paneer Tikka Recipe
+                            Korma Marinated Lamb Shoulder with Spinach Lentils
                         </div>
                         <div className="time">
-                            Expected Time:2HRS 30MIN
+                            Expected Time:2HRS
                         </div>
                     </div>
                 </div>
                 <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2010/07/pani-puri-recipe-golgappa-recipe-280x280.jpg" className='box' alt="food" />
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/MexicanChickenTacos.jpg" className='box' alt="food" />
                     <div className="top box">
                         <div className="title">
-                            Puri For Pani Puri | Suji Ke Golgappe
+                            Mexican Chicken Tacos
                         </div>
                         <div className="time">
-                            Expected Time:1HRS 15MIN
+                            Expected Time:25MIN
                         </div>
                     </div>
                 </div>
                 <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2022/10/nankhatai-recipe-1-280x280.jpg" className='box' alt="food" />
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/EVERYDAY_DHAL%20WITH%20EGGS_AUST%20EGGS_PART%20TWO_AUG%202020_7491.jpg" className='box' alt="food" />
                     <div className="top box">
                         <div className="title">
-                            Nankhatai Recipe | Nankhatai Biscuit
-                        </div>
-                        <div className="time">
-                            Expected Time:40MIN
-                        </div>
-                    </div>
-                </div>
-                <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/thepla-280x280.jpg" className='box' alt="food" />
-                    <div className="top box">
-                        <div className="title">
-                            Thepla | Gujarati Methi Thepla Recipe
-                        </div>
-                        <div className="time">
-                            Expected Time:50MIN
-                        </div>
-                    </div>
-                </div>
-                <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2015/10/spring-rolls-recipe-280x280.jpg" className='box' alt="food" />
-                    <div className="top box">
-                        <div className="title">
-                            Spring Rolls | Crispy Veg Spring Roll Recipe
-                        </div>
-                        <div className="time">
-                            Expected Time:45MIN
-                        </div>
-                    </div>
-                </div>
-                <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/khaman-recipe-280x280.jpg" className='box' alt="food" />
-                    <div className="top box">
-                        <div className="title">
-                            Khaman Dhokla Recipe | Khaman Recipe
+                            Egg and Lentil Dahl
                         </div>
                         <div className="time">
                             Expected Time:20MIN
@@ -87,10 +54,43 @@ export default function Recipe() {
                     </div>
                 </div>
                 <div className="recipe">
-                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/dahi-vada-280x280.jpg" className='box' alt="food" />
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/Pass20183890_0.jpg" className='box' alt="food" />
                     <div className="top box">
                         <div className="title">
-                            Dahi Vada Recipe (Authentic North Indian Recipe)
+                            Beef Mince and Chickpea Curry
+                        </div>
+                        <div className="time">
+                            Expected Time:25MIN
+                        </div>
+                    </div>
+                </div>
+                <div className="recipe">
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/Eggs20171399_0.jpg" className='box' alt="food" />
+                    <div className="top box">
+                        <div className="title">
+                            Mexican Filled Sweet Potatoes with Egg
+                        </div>
+                        <div className="time">
+                            Expected Time:30MIN
+                        </div>
+                    </div>
+                </div>
+                <div className="recipe">
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/Food20177962_0_0.jpg" className='box' alt="food" />
+                    <div className="top box">
+                        <div className="title">
+                            Lentil and Black Bean Tacos
+                        </div>
+                        <div className="time">
+                            Expected Time:20MIN
+                        </div>
+                    </div>
+                </div>
+                <div className="recipe">
+                    <img src="https://myfoodbook.com.au/sites/default/files/styles/sr_wd/public/recipe_photo/FamilyNachosTrayBake.jpg" className='box' alt="food" />
+                    <div className="top box">
+                        <div className="title">
+                            Family Nachos Tray Bake
                         </div>
                         <div className="time">
                             Expected Time:8HRS 45MINS

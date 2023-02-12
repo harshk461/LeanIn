@@ -3,9 +3,6 @@
 <p align="center">
 
   [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-  [![GitHub contributors](https://img.shields.io/github/contributors/rstak/pulses-classification)](https://github.com/RsTaK/pulses-classification/graphs/contributors/)
-  [![GitHub license](https://img.shields.io/github/license/rstak/pulses-classification)](https://github.com/RsTaK/pulses-classification/blob/master/LICENSE)
 </p>  
 
 <img src="static/img/background.jpg"/>

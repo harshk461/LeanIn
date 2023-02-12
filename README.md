@@ -32,15 +32,12 @@ Currently supports 14 commonly used Pulses in Indian households, namely :
 
 Refer to [pulse_list.txt](req_files/pulses_list.txt) to get Hindi/Regional Conversion of given Pulses names
 
-To use this app, [Click here](https://pulses-classification.herokuapp.com/) 
+To use this app, [Click here](https://mataji.vercel.app/) 
 
 <center>or</center> 
 
-Visit : https://pulses-classification.herokuapp.com/
+Visit : https://mataji.vercel.app/
 
-# Demo Video
-
-![](req_files/Demo(Mobile).gif)
 
 # Inspiration
 Thanks to all of my friends and the comedy skits uploaded on youtube that decribes how difficult it is for them to recogninze the type of pulse there in front of them (I'm one of them too).  
@@ -103,7 +100,7 @@ Feel free to go through the Classification Report for details.
 In brief, Our model gives around 98 % accuracy with different classes
 
 # Deployment
-Used Heroku for the deployment. Feel free to visit https://pulses-classification.herokuapp.com/ to experience the Web application
+Used Vercel for the deployment. 
 
 # License
 

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+  background: linear-gradient(90.53deg, #437A99 -19.93%, #F23333 122.11%);
+  background-attachment: fixed;
+}
+
+.body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #053464;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}

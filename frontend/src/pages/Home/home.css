@@ -1,0 +1,13 @@
+.home-header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #296159;
+    padding-top: 50px;
+}
+
+.home-header .left img {
+    width: 600px;
+    height: 600px;
+}

@@ -9,6 +9,7 @@
 
 .header {
     text-align: center;
+    color: #EEE1D1;
 }
 
 .recipe-window .recipe {
@@ -37,6 +38,12 @@
 .recipe .top .title {
     font-size: 20px;
     font-weight: bold;
+    color: black;
+}
+
+.recipe .top .time {
+    font-size: 16px;
+    color: gray;
 }
 
 @media (max-width:1250px) {

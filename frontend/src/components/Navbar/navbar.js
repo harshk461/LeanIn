@@ -29,7 +29,7 @@ export default function Navbar() {
                     <div className="links">
                         <a href="/" className="link">Home</a>
                         <a href="/blog" className="link">Blog</a>
-                        <a href="/search" className="link">Search</a>
+                        <a href="/search" className="link">Try Now!</a>
                         <a href="/recipe" className="link">Recipes</a>
                         <a href="/contact" className="link">Contact</a>
                     </div>
@@ -50,7 +50,7 @@ export default function Navbar() {
                 <div className="fields">
                     <a href="/" className="link">Home</a>
                     <a href="/blog" className="link">Blog</a>
-                    <a href="/search" className="link">Search</a>
+                    <a href="/search" className="link">Try Now!</a>
                     <a href="/recipe" className="link">Recipes</a>
                     <a href="/contact" className="link">Contact</a>
                 </div>

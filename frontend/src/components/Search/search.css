@@ -5,42 +5,119 @@
     align-items: center;
     background-color: transparent;
     padding: 50px;
+    flex-direction: column;
+    gap: 30px;
 }
 
-.search-body .search-form {
+.search-form {
     width: 600px;
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    background: #fff;
-    outline: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    text-align: center;
+}
+
+.search-form img {
+    width: 260px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.search-form p {
+    color: #EEE1D1;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .search-form input {
-    border: 1px solid #000;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #EEE1D1;
+    margin: 15px 0;
+}
+
+.search-form input::file-selector-button {
     padding: 10px;
+    font-size: 17px;
+    color: #FD6625;
     border-radius: 10px;
+    border: 1px solid #FD6625;
+    background-color: transparent;
+    margin-right: 20px;
+
 }
 
 .search-form button {
-    font-size: 20px;
-    width: 200px;
+    width: 336px;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
     border: none;
     border-radius: 20px;
-    background-color: #053464;
-    color: gold;
-    padding: 10px;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 30px;
+    background-color: #FD6625;
 }
 
-.test_img {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.result {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #EEE1D1;
+}
+
+.hidden {
+    display: none;
+}
+
+.result img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.result .name {
+    color: #EEE1D1;
+    font-size: 22px;
+}
+
+.recipe {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.recipe .links {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (max-width:650px) {
+    .search-body {
+        width: 100%;
+    }
+
+    .search-form {
+        width: 100%;
+    }
+
+    .result {
+        width: 100%;
+    }
+
+    .recipe {
+        width: 100%;
+    }
+
+    .recipe .links {
+        display: inline-flex;
+        font-size: 14px;
+    }
 }

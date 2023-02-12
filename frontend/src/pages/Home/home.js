@@ -26,7 +26,7 @@ export default function Home() {
                             Simply snap a photo of the pulse in question and let us do the rest.</p>
                     </div>
                     <div className="buttons">
-                        <button>Try Now!</button>
+                        <a href="/search"><button>Try Now!</button></a>
                         <button>Watch a Demo</button>
                     </div>
                 </div>
@@ -113,7 +113,7 @@ export default function Home() {
                         <h1>Happy cooking!</h1>
                     </div>
                     <div className="right">
-                        <button>Try Now!</button>
+                        <a href="/search"><button>Try Now!</button></a>
                     </div>
                 </div>
                 <div className="divider"></div>

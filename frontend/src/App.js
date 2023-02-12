@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home/home'
@@ -11,6 +11,9 @@ import Blog from './pages/Blog/blog'
 import Recipe from './pages/Recipe/recipe'
 
 export default function App() {
+  useEffect(() => {
+    document.title = 'MataJi';
+  }, [])
   return (
     <BrowserRouter>
       <Routes>

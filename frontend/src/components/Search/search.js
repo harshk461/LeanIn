@@ -17,6 +17,8 @@ export default function Search() {
     }
 
     const handleSubmit = async (e) => {
+        const loading = document.getElementById('loading');
+        loading.style.display = 'block';
         const formData = new FormData();
         formData.append(
             "file",
@@ -42,6 +44,7 @@ export default function Search() {
                 setLink2(data["links"][1]);
             })
         const res_window = document.getElementById('result');
+        loading.style.display = 'none';
         res_window.classList.remove('hidden');
     }
     return (
@@ -54,6 +57,10 @@ export default function Search() {
                         Our website uses state-of-the-art machine learning algorithms to analyze the image and provide a prediction of the type of pulse.</p>
                     <input type="file" placeholder='Choose File' onChange={fileChangeHandler} />
                     <button onClick={handleSubmit}>Predict</button>
+                </div>
+                <div className="spinner-container hidden" id='loading'>
+                    <div className="loading-spinner">
+                    </div>
                 </div>
                 <div className="result hidden" id='result'>
                     <img src={imgURL} />
